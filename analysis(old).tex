@@ -1,0 +1,69 @@
+% !TEX root = master.tex
+\subsection{Bulge-Disc decomposition}
+We extract two 1-dimensional profiles for each image. In our implementation, wedges drawn along each direction of the major axis centred by fitted isophotes and the median counts are calculated along the axis at regular intervals (with central counts being determined by interpolation). This results in four 1D profiles for each galaxy with varying sizes of regions where the sky becomes dominant. 
+
+\sersic parameters are then determined by bulge-disc decomposition. We use the Levenberg-Marquardt non-linear least squares regression algorithm (LMA) is used to minimise chi-squared and fit the profile to the desired model. Reduced chi-squared is used as a goodness-of-fit measure.
+\begin{equation}
+	\chi^{2}_{\nu} = \frac{1}{N-n-1} \sum_{i} \frac{[y_i - y(x_i)]^2}{w_i^2},
+\end{equation}
+where $\chi_{\nu}^2$ is the reduced chi-squared goodness-of-fit measure, $N$ is the number of data points, $n$ is the number of free parameters, $y_i$ are the data points, $y(x_i)$ are the associated model points and $w_i$ are the associated weightings for each point \citep{marquardt_algorithm_1963}. A reduced chi-squared of $\chi_{\nu}^2~1$ describes an accurate fit, $\chi_{\nu}^2<1$ describes overestimated errors and $\chi_{\nu}^2>1$ is degenerate in describing both underestimated errors or an incorrect model. This is by far the most tested and reliable fitting method \citep{lawson_solving_1995} and was implemented in the high-level language Python with Scipy \citep{oliphant_python_2007}. 
+
+We use an exponential disk + \sersic $R^{1/n}$ bulge model used in \citet{allen_millennium_2006} as bulges cannot all be described by $R^{1/4}$ \citep{simard_catalog_2011}. Fitting a model with six parameters is challenging to accomplish in one fell swoop since there is more parameter space to explore and so the likelihood of being trapped in a local minima -and not a global minima- increase. Therefore, we employ the iterative method also found in \citet{weinzirl_bulge_2009} as follows:
+
+\begin{enumerate}
+	\item \sersic fit: A \sersic bulge (free $n_B$) is fit to the profile with a radial surface brightness of:
+	\begin{equation}
+		I(R) = I_{e} \rm{exp}\left\{-b_{n}\left[\left(\frac{R}{R_{e}}\right)^{1/n} - 1\right]\right\},
+	\end{equation}
+	where we use the definitions given earlier.	LMA converges quickly to a solution here, so only rough initial guesses are needed.
+
+	\item Disk+bulge fit: Now an exponential disk is appended to the previously calculated bulge with a radial surface brightness given by:
+	\begin{equation}
+		I(R) = I_0 \rm{exp}[-R/h],
+	\end{equation}
+	where we now use the scale length $h=R_{e,D}/1.678$ and central intensity $I_0=I_{e,D}e^{-1.678}$ instead of $R_{e,D}$ and $I_{e,D}$ in order to distinguish concisely between bulge and disc parameters. 
+\end{enumerate}
+
+\subsection{Sky subtraction and weighting}
+talk about effect of sky on profiles and other effects
+talk about sky level find algorithm
+get $\mu_{crit}$ corresponding to level where a $\pm1\sigma$ change in sky error results in 0.2mag between them
+
+
+\subsubsection{The effects of sky}
+The night sky is never dark and in the \iband it has a brightness of $20.5$ mag $\rm{arcsec}^{-2}$ >>citation needed<<. Indeed, proficient sky subtraction is required for the acquisition of accurate surface brightness profiles. If the sky background is underestimated, the sky will contribute to the profile at large galactic radius and flatten off the profile if sufficiently extended. If the background is overestimated, light from the galaxy is subtracted also, plunging it towards zero at some finite radius. 
+\begin{figure}
+	\label{fig: effects of sky from binney}
+\end{figure}
+There are, however, other errors that contribute to the overall corruption of the image besides sky estimation. Due to the limitations of optical devices and CCDs, there may be a gradient across an image frame to due to CCD bias or inhomogeneous illumination. Joining frames together, or `splicing' exaggerate this effect since different exposures will have different sky backgrounds. The raw data is already corrected for this by SDSS and MegaCam in `flat-fielding', but the correction is not perfect and may result in unwanted artefacts or gradients across the image. SDSS operates in drift scan mode \citep{abazajian_seventh_2009}, however, and so does not suffer as much from the effects of flat-fielding.
+
+\subsubsection{Finding the sky}
+Accurate background estimates are essential in characterising outer profiles. While both cameras give their own estimated sky fluxes and the extraction of 1D profiles yields a additional estimate, background can vary within images due to flat-fielding errors \citep{bijaoui_sky_1980}. It is therefore important to calculate the local sky background for each 1D profile. 
+
+ We employ an iterative algorithm which, assuming that the profile extends to large enough $R$, seeks the point where the sky starts to dominate. Starting from the largest radius, the algorithm compares the standard deviation and mean of a window of four points to the next windows of four points. If this value...
+
+\begin{figure}
+	\label{fig: flow chart of sky finder}
+\end{figure}
+
+We define a critical surface brightness $\mu_{crit}$ as found in \citet{pohlen_structure_2006} below which, the sky is assumed to dominate and the profile is no longer trusted. $\mu_{crit}$ corresponds to the level to which we would have to change the sky error $\sigma_{sky}$ in order for $\mu(R)\pm\sigma_{sky}$ to differ from $\mu(R)$ by 0.2 mag. 
+
+The weights used for the fitting procedure are calculated on a per radius basis, with the photon count (including sky) at each point being averaged over the number of composite pixels. 
+\begin{equation}
+	insert weighting equations!!
+\end{equation}
+
+\subsection{Refining sample}
+From the initial sample, we remove those which have an axial ratio $b/a < 0.4$ leaving only galaxies which have a large projected surface area. This allows for a greater area from which the profiles can be extracted. 
+
+If the $n_{bulge} > 1$, the bulge will start to re-dominate at a large radius determined by the ratio of bulge and disk scale lengths \citep{driver_millennium_2007}.
+\begin{equation}
+	where bulge is equal to disk
+\end{equation}
+ This project concerns the outer disk profiles and galaxies with an outer profile dominated by a returning bulge prohibit detailed studies of the outer disk. Therefore, any galaxy whose bulge comes within $0.2$ mag of the disk in the last half of the profile is also rejected.
+
+\subsection{Error estimation}
+Bootstrapping is a resampling method with estimates uncertainty of fit parameters with respect to the data points i.e. measuring those parameters many times when sampling from an approximating distribution \citep{efron_bootstrap_1979}. A subsample of identical size to the original is randomly selected many times with replacement, where the number of repetitions is a trade off between a long computation time and a statistically significant number of subsamples. 
+\begin{figure}
+	\label{bootstrap of scale length h}
+\end{figure}

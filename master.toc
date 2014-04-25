@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {subsection}{\numberline {1.1}Galaxy Properties}{3}
+\contentsline {subsection}{\numberline {1.2}S0s and Classification}{3}
+\contentsline {subsection}{\numberline {1.3}Photometry}{4}
+\contentsline {subsection}{\numberline {1.4}The origins of S0 Galaxies}{5}
+\contentsline {subsection}{\numberline {1.5}Truncation}{6}
+\contentsline {subsection}{\numberline {1.6}Aims of Project}{7}
+\contentsline {section}{\numberline {2}Data and Initial Sample}{7}
+\contentsline {section}{\numberline {3}Data Reduction and Analysis}{8}
+\contentsline {subsection}{\numberline {3.1}Extracting 1D profiles}{8}
+\contentsline {subsection}{\numberline {3.2}Sky subtraction}{8}
+\contentsline {subsubsection}{\numberline {3.2.1}The effects of sky}{8}
+\contentsline {subsubsection}{\numberline {3.2.2}Finding the sky}{9}
+\contentsline {subsection}{\numberline {3.3}Bulge-Disc decomposition}{9}
+\contentsline {subsection}{\numberline {3.4}Truncation detection}{11}
+\contentsline {subsection}{\numberline {3.5}Parameter uncertainties}{13}
+\contentsline {section}{\numberline {4}Results}{13}
+\contentsline {subsection}{\numberline {4.1}Sky Detection}{13}
+\contentsline {subsection}{\numberline {4.2}Sample Properties}{13}
+\contentsline {subsection}{\numberline {4.3}Example Decompositions}{14}
+\contentsline {subsection}{\numberline {4.4}Comparing Type-I and Type-III Properties}{14}
+\contentsline {subsection}{\numberline {4.5}Correlations with distance from cluster centre}{14}
+\contentsline {section}{\numberline {5}Discussion}{15}
+\contentsline {subsection}{\numberline {5.1}Comparison with previous studies}{15}
+\contentsline {subsection}{\numberline {5.2}Problems with this method}{15}
+\contentsline {section}{\numberline {6}Conclusion}{17}

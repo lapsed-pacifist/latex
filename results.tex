@@ -1,0 +1,74 @@
+% !TEX root = master.tex
+
+% talk about initial disk fitting- disk dominated section, fit without weights etc
+
+% Fitting a galaxy with no truncations as above, is helpful to quantify the bulge size. It also provides a reliable, if not robust, measure of truncation type through its residuals. - tighter weighting results in a good measure for truncation type further out
+
+\subsection{Sky Detection} % (fold)
+\label{sub:sky_detection}
+The automated detection routine as describe above successfully finds the sky dominated area with all sample light profiles. The sky value obtained from our detection algorithm differed from the values delivered from the SDSS/MegaCam pipeline by as much as 5\%, though typically only differs by about 0.3\%. 
+\begin{figure}
+	% \caption{Graph of sky differences sky_err differences}
+\end{figure}
+Sky uncertainty as the standard deviation differs from the pipeline uncertainties ($\sqrt{sky}$) by around 40\%. 
+
+% subsection sky_detection (end)
+
+\subsection{Sample Properties}
+Though all profiles could be fit with a disk dominated outer profile, it was not always real. There were frequent situations where a disc with perturbation (Allen type-6) were fit. These galaxies usually had what appears to be previously unseen spiral patterns or wide bars. Since these components are not part of this investigation, these galaxies were discarded.
+
+The initial sample of profiles was also filtered by removing galaxies whose profiles yield hugely disagreeing results. This was done by eye and the sample was refined to 66 reasonable fits. 
+
+Our sample exhibits a range of bulge sizes, showing that our restrictions on bulge parameters relative to the disk has had little impact on the diversity of our sample. It has even permitted bulge-dominated galaxies with $B/D \approx 0.8$, though even they are still dominated by a disk at large $R$.
+
+\begin{figure}
+	% \caption{histogram subplots of nB, BD_ratio, h_disc}
+\end{figure}
+
+
+% subsection Sample Properties (end)
+
+
+\subsection{Example Decompositions} % (fold)
+\label{sub:example_decompositions}
+We present a typical galaxy decomposition and classifications for a disk exhibiting upbending (ID: 1237667322723827758) to illustrate the classification process. 
+
+\begin{figure}
+	\label{fig: The mega and sdss profiles of 1237667322723827758}
+	\caption{The surface brightness profile for the MegaCam image of 1237667322723827758. The plot shows the inner and outer disks in light and dark dashed lines respectively. The bulge is illustrated in green and the original pre-truncated disk is shown as a red dotted line. The total is depicted with a thin black line.
+	 Unreal (negative counts) values are shown with red arrows and the critical sky value as the red region. The dashed lines at the top and bottom denote the lower sky limit, lower break limit, upper break limit and bulge cut-off radius, working inwards.}
+\end{figure}
+
+\ref{fig: The mega and sdss profiles of 1237667322723827758} shows the surface brightness profile of 1237667322723827758. All four profiles, representing the different major axes in both images, are completely independently fit. The routine classifies the individual fits as Type-III (upbended) since the lower limit on the outer scale length does not fall below the upper limit on the inner scale length. 
+
+The next step is to combine the images to yield overall parameters for the entire galaxy. However, although there is a good agreement of pre-truncated-fit -called `classic' from now on- disk parameters between cameras there is a discrepancy in the \sersic index of the bulge. SDSS fits a small $n\approx 0.5$ bulge whilst MegaCam finds an expansive $n\approx 1.5$ bulge. 
+
+This discrepancy error is a major problem when combining results as averaging the parameters does not yield an accurate `one-size-fits-all' solution. We proceed by combining their bootstraps instead. This does not solve the problem of not yielding an accurate solution but it does provide an accurate error on the result, unlike a weighted arithmetic mean \citep{andrae_error_2010}.
+
+% \begin{tabular}
+% 	% table of overall properties
+% \end{tabular}
+
+% subsection example_decompositions (end)
+
+\subsection{Comparing Type-I and Type-III Properties} % (fold)
+\label{sub:comparing_type_i_and_type_iii}
+
+\begin{figure}
+	\label{meta graph of correlations between}
+\end{figure}
+
+% subsection comparing_type_i_and_type_iii (end)
+
+
+\subsection{Correlations with distance from cluster centre} % (fold)
+\label{sub:correlations}
+We found no statistically significant evidence of a trend between distance from cluster centre and bulge and classical disk parameters. However, there is a parabolic region of $30 \lesssim R_{clust} \lesssim 60$ arcsecs, $28 \lesssim \mu_{0,outer} \lesssim 25$ mag in which there are no truncated galaxies.
+\begin{figure}
+	\label{correlations graph}
+\end{figure}
+
+
+% subsection correlations (end)
+
+problems discussion

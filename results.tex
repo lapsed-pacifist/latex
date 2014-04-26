@@ -14,61 +14,73 @@ Sky uncertainty as the standard deviation differs from the pipeline uncertaintie
 
 % subsection sky_detection (end)
 
-\subsection{Sample Properties}
-Though all profiles could be fit with a disk dominated outer profile, it was not always real. There were frequent situations where a disc with perturbation (Allen type-6) were fit. These galaxies usually had what appears to be previously unseen spiral patterns or wide bars. Since these components are not part of this investigation, these galaxies were discarded.
 
-The initial sample of profiles was also filtered by removing galaxies whose profiles yield hugely disagreeing results. This was done by eye and the sample was refined to 66 reasonable fits. 
-
-Our sample exhibits a range of bulge sizes, showing that our restrictions on bulge parameters relative to the disk has had little impact on the diversity of our sample. It has even permitted bulge-dominated galaxies with $B/D \approx 0.8$, though even they are still dominated by a disk at large $R$.
-
-\begin{figure}
-	% \caption{histogram subplots of nB, BD_ratio, h_disc}
-\end{figure}
-
-
-% subsection Sample Properties (end)
-
-
-\subsection{Example Decompositions} % (fold)
+\subsection{Example Decomposition} % (fold)
 \label{sub:example_decompositions}
-We present a typical galaxy decomposition and classifications for a disk exhibiting upbending (ID: 1237667322723827758) to illustrate the classification process. 
+We present a typical galaxy decomposition and classifications for a disk exhibiting upbending to illustrate the classification process. ID 1237667322723827758 is a typical example of a type-III classified galaxy.
 
 \begin{figure}
 	\label{fig: The mega and sdss profiles of 1237667322723827758}
 	\caption{The surface brightness profile for the MegaCam image of 1237667322723827758. The plot shows the inner and outer disks in light and dark dashed lines respectively. The bulge is illustrated in green and the original pre-truncated disk is shown as a red dotted line. The total is depicted with a thin black line.
 	 Unreal (negative counts) values are shown with red arrows and the critical sky value as the red region. The dashed lines at the top and bottom denote the lower sky limit, lower break limit, upper break limit and bulge cut-off radius, working inwards.}
 \end{figure}
+\ref{fig: The mega and sdss profiles of 1237667322723827758} shows the surface brightness profile of 1237667322723827758. All four profiles, representing the different major axes in both images, are completely independently fit. Firstly, a simple bulge + disc is fit to the profile, resulting in a typical profile with a disc scale length of $\sim 5$ arcsec and bulge effective surface brightness of $\sim 18$ mag. 
 
-\ref{fig: The mega and sdss profiles of 1237667322723827758} shows the surface brightness profile of 1237667322723827758. All four profiles, representing the different major axes in both images, are completely independently fit. The routine classifies the individual fits as Type-III (upbended) since the lower limit on the outer scale length does not fall below the upper limit on the inner scale length. 
+On the other hand, the bulge shape -characterised by the \sersic index- varies between SDSS and MegaCam fits. Though this changes the shape of the bulge entirely, its surface brightness remains small enough as to not have an impact the total at large $R$.
+
+Next, the automated truncation detection yields a potential break point and the two disks are parameterised. The routine classifies the individual fits as Type-III (upbended) since the lower limit on the outer scale length does not fall below the upper limit on the inner scale length. 
 
 The next step is to combine the images to yield overall parameters for the entire galaxy. However, although there is a good agreement of pre-truncated-fit -called `classic' from now on- disk parameters between cameras there is a discrepancy in the \sersic index of the bulge. SDSS fits a small $n\approx 0.5$ bulge whilst MegaCam finds an expansive $n\approx 1.5$ bulge. 
 
 This discrepancy error is a major problem when combining results as averaging the parameters does not yield an accurate `one-size-fits-all' solution. We proceed by combining their bootstraps instead. This does not solve the problem of not yielding an accurate solution but it does provide an accurate error on the result, unlike a weighted arithmetic mean \citep{andrae_error_2010}.
 
-% \begin{tabular}
-% 	% table of overall properties
+Defining the truncation strength as 
+\begin{equation}
+	S_h =  \frac{h_{outer} - h_{inner}}{h_{inner}},
+\end{equation}
+we find that $S_h = 1.3^{+0.9}_{-0.7}$ for the combined profile and so is classified as Type-III.
+
+
+% \begin{tabular}[cccc]
+	% table of combined fit parameters
 % \end{tabular}
 
 % subsection example_decompositions (end)
 
-\subsection{Comparing Type-I and Type-III Properties} % (fold)
-\label{sub:comparing_type_i_and_type_iii}
+\subsection{Sample Properties}
+Though all profiles have been successfully fit with a disk dominated outer profile, it was not always real. There were frequent situations where a disc with perturbation (Allen type-6) were fit. These galaxies usually had what appears to be previously unseen spiral patterns, wide bars or simply a bulge dominated outer profile. Since these components are not part of this investigation, these galaxies were discarded.
+
+The initial sample of profiles was also filtered by removing galaxies whose profiles yield hugely disagreeing results. This was done by eye and the sample was refined to 66 reasonable fits. 
+
+Our sample exhibits a range of bulge sizes, showing that our restrictions on bulge parameters relative to the disk has had little impact on the diversity of our sample. It has even permitted bulge-dominated galaxies with $B/D \approx 0.8$, though even they are still dominated by a disk at large $R$.
 
 \begin{figure}
-	\label{meta graph of correlations between}
+	\caption{Proportion of both truncated and untruncated disks as a function of various parameters}
+	\label{fig: prop_hist}
 \end{figure}
 
-% subsection comparing_type_i_and_type_iii (end)
+% \begin{tabular}
+	% table for truncated and untruncated mean values for parameters
+% \end{tabular}
+
+In Type-III disks, the central surface brightness of the outer disk must be greater than that of the inner disk. This can clearly be seen in the sharp divide between the distributions above. Although type-Is and type-IIIs share a similar distribution of effective bulge radii, higher \sersic indices are more frequent in type-I disks. The type-III preference for a more centralised bulge suggests that the upbending is not due to bulge influence which earlier may have escaped notice. 
+
+In truncated galaxies, the break point takes a wide range of radii and the strength of the break exhibits a peak at 2. The small number of truncated galaxies with low break strength can be attributed to the classification process, since a low break strength is more likely to lie within $\sim 1\sigma$ of the classical disk and hence classified as untruncated. 
+
+% subsection Sample Properties (end)
 
 
 \subsection{Correlations with distance from cluster centre} % (fold)
 \label{sub:correlations}
+A 
 We found no statistically significant evidence of a trend between distance from cluster centre and bulge and classical disk parameters. However, there is a parabolic region of $30 \lesssim R_{clust} \lesssim 60$ arcsecs, $28 \lesssim \mu_{0,outer} \lesssim 25$ mag in which there are no truncated galaxies.
-\begin{figure}
-	\label{correlations graph}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{figs/fraction_vs_cluster_radius}
+	\caption{Fraction of upbended S0s binned with equal distance bins}
+	\label{fraction vs dist}
 \end{figure}
 
+A weak trend in fraction of type-III against cluster-centric radius is observed when binning the galaxies into inner, outer and intermediate radii (see \ref{fraction vs dist}. The fraction of truncated S0s at the outskirts ($R > 60 $Mpc) is much lower than that of the innermost region.
 
 % subsection correlations (end)
-
-problems discussion

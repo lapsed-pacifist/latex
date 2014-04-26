@@ -40,6 +40,10 @@ Blanton M.~R.,  Moustakas J.,  2009, {arXiv} e-print 0908.3017, Physical
   properties and environments of nearby galaxies,
   \verb+http://arxiv.org/abs/0908.3017+
 
+\bibitem[\protect\citeauthoryear{Bower, Lucey \& Ellis}{Bower
+  et~al.}{1992}]{bower_precision_1992}
+Bower R.~G.,  Lucey J.~R.,    Ellis R.~S.,  1992, {MNRAS}, 254, 601
+
 \bibitem[\protect\citeauthoryear{Burstein, Ho, Huchra \& Macri}{Burstein
   et~al.}{2005}]{burstein_k-band_2005}
 Burstein D.,  Ho L.~C.,  Huchra J.~P.,    Macri L.~M.,  2005, {ApJ}, 621, 246
@@ -174,6 +178,11 @@ Marquardt D.~W.,  1963, Journal of the Society for Industrial and Applied
   et~al.}{1996}]{moore_galaxy_1996}
 Moore B.,  Katz N.,  Lake G.,  Dressler A.,    Oemler A.,  1996, Nature, 379,
   613
+
+\bibitem[\protect\citeauthoryear{Moore, Lake, Quinn \& Stadel}{Moore
+  et~al.}{1999}]{moore_survival_1999}
+Moore B.,  Lake G.,  Quinn T.,    Stadel J.,  1999, Monthly Notices of the
+  Royal Astronomical Society, 304, 465
 
 \bibitem[\protect\citeauthoryear{Naim, Lahav, Sodre L. \&
   Storrie-Lombardi}{Naim et~al.}{1995}]{naim_automated_1995}

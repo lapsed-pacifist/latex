@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.1)  25 APR 2014 18:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.1)  26 APR 2014 17:39
 entering extended mode
 **C:/Users/User/Documents/Project*work/Latex*Report/Main/master.tex
 ("C:/Users/User/Documents/Project work/Latex Report/Main/master.tex"
@@ -185,18 +185,18 @@ Package: mathbbol 1995/01/01
 \symbbold=\mathgroup7
 )
 ("C:\Users\User\Documents\Project work\Latex Report\Main\master.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -213,65 +213,80 @@ LaTeX Font Info:    ... okay on input line 8.
 \everyMPtoPDFconversion=\toks24
 )
 AAS preprint substyle, v5.2 <12 Dec 2003>.
-("C:\Users\User\Documents\Project work\Latex Report\Main\abstract.tex")
-("C:\Users\User\Documents\Project work\Latex Report\Main\master.toc"
-LaTeX Font Info:    Try loading font information for U+lasy on input line 2.
+("C:\Users\User\Documents\Project work\Latex Report\Main\abstract.tex"
+LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 2.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\bbold\ubbold.fd") [1
+("C:\Program Files\MiKTeX 2.9\tex\latex\bbold\ubbold.fd"))
+("C:\Users\User\Documents\Project work\Latex Report\Main\master.toc" [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \tf@toc=\write3
 
 ("C:\Users\User\Documents\Project work\Latex Report\Main\introduction.tex"
 [2] [3] [4] [5] [6])
-("C:\Users\User\Documents\Project work\Latex Report\Main\sample_selection.tex")
-[7] ("C:\Users\User\Documents\Project work\Latex Report\Main\analysis.tex"
+("C:\Users\User\Documents\Project work\Latex Report\Main\sample_selection.tex"
+[7]) ("C:\Users\User\Documents\Project work\Latex Report\Main\analysis.tex"
 [8] [9] [10] [11] [12])
-("C:\Users\User\Documents\Project work\Latex Report\Main\results.tex" [13])
-("C:\Users\User\Documents\Project work\Latex Report\Main\discussion.tex"
-[14] <figs/total_bar_chart_truncs.png, id=56, 589.0005pt x 444.4605pt>
-File: figs/total_bar_chart_truncs.png Graphic file (type png)
+("C:\Users\User\Documents\Project work\Latex Report\Main\results.tex" [13]
+[14] <figs/fraction_vs_cluster_radius.png, id=56, 589.0005pt x 444.4605pt>
+File: figs/fraction_vs_cluster_radius.png Graphic file (type png)
 
-<use figs/total_bar_chart_truncs.png>
-Package pdftex.def Info: figs/total_bar_chart_truncs.png used on input line 9.
-(pdftex.def)             Requested size: 469.75499pt x 354.49055pt.
-) [15] [16 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/total_b
-ar_chart_truncs.png>]
-("C:\Users\User\Documents\Project work\Latex Report\Main\conclusion.tex")
-("C:\Users\User\Documents\Project work\Latex Report\Main\master.bbl" [17]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 117.
+<use figs/fraction_vs_cluster_radius.png>
+Package pdftex.def Info: figs/fraction_vs_cluster_radius.png used on input line
+ 79.
+(pdftex.def)             Requested size: 294.49953pt x 222.2297pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) ("C:\Users\User\Documents\Project work\Latex Report\Main\discussion.tex"
+[15]
+<figs/total_bar_chart_truncs_incl_field.png, id=61, 589.0005pt x 444.4605pt>
+File: figs/total_bar_chart_truncs_incl_field.png Graphic file (type png)
+
+<use figs/total_bar_chart_truncs_incl_field.png>
+Package pdftex.def Info: figs/total_bar_chart_truncs_incl_field.png used on inp
+ut line 10.
+(pdftex.def)             Requested size: 353.40302pt x 266.67834pt.
+ [16])
+("C:\Users\User\Documents\Project work\Latex Report\Main\conclusion.tex"
+[17 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/fraction_vs_cl
+uster_radius.png>] [18 <C:/Users/User/Documents/Project work/Latex Report/Main/
+figs/total_bar_chart_truncs_incl_field.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
- [18] [19]) [20]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+)
+("C:\Users\User\Documents\Project work\Latex Report\Main\master.bbl" [19]
+[20] [21] [22]) [23]
 ("C:\Users\User\Documents\Project work\Latex Report\Main\master.aux") ) 
 Here is how much of TeX's memory you used:
- 3235 strings out of 493921
- 43229 string characters out of 3147286
- 97314 words of memory out of 3000000
- 6466 multiletter control sequences out of 15000+200000
+ 3246 strings out of 493921
+ 43595 string characters out of 3147286
+ 97410 words of memory out of 3000000
+ 6476 multiletter control sequences out of 15000+200000
  13160 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,7n,28p,896b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,7n,28p,1036b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
@@ -285,9 +300,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on master.pdf (20 pages, 227652 bytes).
+Output written on master.pdf (23 pages, 264495 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

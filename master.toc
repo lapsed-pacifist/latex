@@ -1,24 +1,24 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {subsection}{\numberline {1.1}Galaxy Properties}{3}
 \contentsline {subsection}{\numberline {1.2}S0s and Classification}{4}
-\contentsline {subsection}{\numberline {1.3}Photometry}{4}
-\contentsline {subsection}{\numberline {1.4}The origins of S0 Galaxies}{5}
-\contentsline {subsection}{\numberline {1.5}Truncation}{6}
-\contentsline {subsection}{\numberline {1.6}Aims of Project}{7}
-\contentsline {section}{\numberline {2}Data and Initial Sample}{8}
-\contentsline {section}{\numberline {3}Data Reduction and Analysis}{8}
-\contentsline {subsection}{\numberline {3.1}Extracting 1D profiles}{8}
-\contentsline {subsection}{\numberline {3.2}Sky subtraction}{8}
-\contentsline {subsubsection}{\numberline {3.2.1}The effects of sky}{8}
-\contentsline {subsubsection}{\numberline {3.2.2}Finding the sky}{9}
-\contentsline {subsection}{\numberline {3.3}Bulge-Disc decomposition}{10}
-\contentsline {subsection}{\numberline {3.4}Truncation detection}{12}
-\contentsline {subsection}{\numberline {3.5}Parameter uncertainties}{13}
-\contentsline {section}{\numberline {4}Results}{13}
-\contentsline {subsection}{\numberline {4.1}Sky Detection}{13}
-\contentsline {subsection}{\numberline {4.2}Example Decomposition}{13}
-\contentsline {subsection}{\numberline {4.3}Sample Properties}{14}
-\contentsline {subsection}{\numberline {4.4}Correlations with distance from cluster centre}{15}
-\contentsline {section}{\numberline {5}Discussion}{16}
-\contentsline {subsection}{\numberline {5.1}Problems with this method}{17}
-\contentsline {section}{\numberline {6}Conclusion}{19}
+\contentsline {subsection}{\numberline {1.3}Photometry}{5}
+\contentsline {subsection}{\numberline {1.4}The origins of S0 Galaxies}{6}
+\contentsline {subsection}{\numberline {1.5}Truncation}{7}
+\contentsline {subsection}{\numberline {1.6}Aims of Project}{9}
+\contentsline {section}{\numberline {2}Data and Initial Sample}{9}
+\contentsline {section}{\numberline {3}Data Reduction and Analysis}{9}
+\contentsline {subsection}{\numberline {3.1}Extracting 1D profiles}{9}
+\contentsline {subsection}{\numberline {3.2}Sky subtraction}{10}
+\contentsline {subsubsection}{\numberline {3.2.1}The effects of sky}{10}
+\contentsline {subsubsection}{\numberline {3.2.2}Finding the sky}{11}
+\contentsline {subsection}{\numberline {3.3}Bulge-Disc decomposition}{12}
+\contentsline {subsection}{\numberline {3.4}Truncation detection}{14}
+\contentsline {subsection}{\numberline {3.5}Parameter uncertainties}{16}
+\contentsline {section}{\numberline {4}Results}{16}
+\contentsline {subsection}{\numberline {4.1}Sky Detection}{16}
+\contentsline {subsection}{\numberline {4.2}Example Decomposition}{16}
+\contentsline {subsection}{\numberline {4.3}Sample Properties}{19}
+\contentsline {subsection}{\numberline {4.4}Correlations with distance from cluster centre}{21}
+\contentsline {section}{\numberline {5}Discussion}{21}
+\contentsline {subsection}{\numberline {5.1}Problems with this method}{23}
+\contentsline {section}{\numberline {6}Conclusion}{24}

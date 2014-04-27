@@ -5,23 +5,22 @@ We extract two 1-dimensional profiles for each image. In our implementation, wed
 \subsection{Sky subtraction}
 \subsubsection{The effects of sky}
 The night sky is never completely dark and in the \iband it has a brightness of $19.9$ mag $\rm{arcsec}^{-2}$ \citep{binney_galactic_1998}. Indeed, proficient sky subtraction is required for the acquisition of accurate surface brightness profiles at low brightness. If the sky background is underestimated, the sky will contribute to the profile at large galactic radius and flatten off the profile if sufficiently extended. If the background is overestimated, light from the galaxy is subtracted also, plunging it towards zero at some finite radius. 
-\begin{figure}
-	\label{fig: effects of sky from binney}
+\begin{figure}[h]
+	\centering
+	\makebox[0.9\columnwidth]{\includegraphics[width=1.5\textwidth]{figs/sky_examples.png}}
+	\caption{The effect of an error in the sky of $\pm 5$ counts}
+	\label{fig: effects of sky}
 \end{figure}
 There are, however, other errors that contribute to the overall corruption of the image besides sky estimation. Due to the limitations of optical devices and CCDs, there may be a gradient across an image frame to due to CCD bias or inhomogeneous illumination \citep{olsen_radiometric_2010}. Joining frames together, or `splicing' exacerbate this effect since different exposures will have different sky backgrounds. The raw data is already corrected for this by SDSS and MegaCam in flat-fielding corrections, but the correction is not perfect and may result in unwanted artefacts or gradients across the image. SDSS operates in drift scan mode \citep{abazajian_seventh_2009} and so does not suffer as much from the effects of flat-fielding since any bias or aberration is averaged out.
 
 \subsubsection{Finding the sky}
-Accurate background estimates are essential in characterising outer profiles. While both cameras give their own estimated sky fluxes and the extraction of 1D profiles yields a additional estimate, background can vary within images -and therefore, between major axis profiles- due to flat-fielding errors \citep{bijaoui_sky_1980}. We have found that our estimate of the sky differs by as much as $4.9$ counts from the SDSS/MegaCam sky value.
-
-\begin{figure}
-	\caption{Flow chart of the sky finder}
-	\label{fig: }
-\end{figure}
+Accurate background estimates are essential in characterising outer profiles. While both cameras give their own estimated sky fluxes and the extraction of 1D profiles yields a additional estimate, background can vary within images -and therefore, between major axis profiles- due to flat-fielding errors \citep{bijaoui_sky_1980}. 
 
 To find the radial position at which the sky starts to dominate, the profile is divided into chunks of three data points. For each chunk, the local mean and standard deviation are calculated. This is essentially finding the local value of intensity. We define the point at which the sky starts to dominate as the point where $\bar{I}_{i+1} > \bar{I}_i + \sigma_i$, where $\bar{I}_i$ is the local mean intensity and $\sigma_i$ is the standard deviation at point $i$. We initiate this search from the end of the profile. The effects of local minima and maxima due to stars and noise are also taken into account by considering the next two local means instead of just one (i.e. $\bar{I}_{i+2}$).
 
-\begin{figure}
-	\caption{Depiction of sky area}
+\begin{figure}[h]
+	\makebox[0.9\columnwidth]{\includegraphics[width=\textwidth]{figs/sky_finder.png}}
+	\caption{Area of the profile from 1237667324334506284Mega(1) with the sky uncertainty shown in red and the cut off point as the vertical straight line}
 \end{figure}
 
 The mode is the best estimate for the sky value since it is the peak of the brightness frequency distribution \citep{bijaoui_sky_1980}. Therefore, we use a $3\sigma$-clipped, synthetic mode to estimate the sky values.
@@ -92,12 +91,14 @@ To quantify a truncated surface brightness profile, three bulge parameters; two 
 
 We define a disk dominated region where the disk is not more than 0.2 mag away from the total surface brightness and is not smaller than $\mu_{crit}$. This avoids noise from both the sky and the bulge.
 
+\begin{figure}[h]
+	\centering
+	\makebox[0.5\columnwidth]{\includegraphics[width=0.8\textwidth]{figs/trunc_finder.png}}
+	\caption{Truncation break radius derivation for 1237667324334506284 mega(2). Standard deviations for each side are shown.}
+\end{figure}
+
 The new disk profile is first smoothing using an unweighted B-spline function \citep{dierckx_curve_1975} of order 3. Then a median-filter is used to remove the last of extreme values with a smoothing length of 10\% of the length of the region.
 The profile is then broken into overlapping chunks of three data points, to which a straight line is fitted. This results in an approximated derivative of the profile and estimate of the local scale length $h_{loc}$ at each point. 
-
-\begin{figure}
-	\caption{truncation break radius derivation graph}
-\end{figure}
 
 Since the transition from scale lengths at the break radius has been found to be frequently smooth \citep{erwin_outer_2008,pohlen_stellar_2004,maltby_anti-truncated_2011}, we assume that there are now two regions of constant scale length joined by a transition region. 
 

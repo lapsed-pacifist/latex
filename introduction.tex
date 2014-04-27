@@ -16,8 +16,13 @@ Ellipticals are centrally condensed objects with a typical diameter from under 1
 Ellipticals contain little gas and hence little ongoing star formation due to their low gravitational binding energy \citep{crocker_molecular_2011}. 
 Because they contain mostly old stars, ellipticals have higher metallicity and have moved off onto the red sequence, hence they are commonly called `red and dead' \citep{binney_galactic_1998}.  
 
-\begin{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\textwidth, height=0.25\textheight]{figs/elliptical_ESO_325-G004.jpg}
+	\includegraphics[width=0.3\textwidth, height=0.25\textheight]{figs/S0_NGC7049.jpg}
+	\includegraphics[width=0.3\textwidth, height=0.25\textheight]{figs/spiral_NGC5457_pinwheel.jpg}
 	\label{galaxy type pictures}
+	\caption{From left to right: Elliptical ESO-325-G004, Lenticular NGC7049 and spiral NGC5457 the `pinwheel'}
 \end{figure}
 
 Spirals, in contrast, are very different to ellipticals in their structure. They are blueish disk galaxies usually with a redder central bulge and spiral arms with vivid dust lanes \citep{sparke_galaxies_2000}. The spiral arms are in fact density perturbations travelling around the disk, where the the increase in gas density initiates local star formation \citep{kennicutt_star_1998}. They therefore contain many more younger  main sequence stars, typically giving spirals a bluer hue of $0.4\lesssim B-V \lesssim 0.8$, where $B$ and $V$ are the magnitudes in the `blue' and `visible' wavebands in the UBV photometric system \citep{sparke_galaxies_2000}.
@@ -26,7 +31,10 @@ Spirals, in contrast, are very different to ellipticals in their structure. They
 The traditional method of classifying galaxies is the Hubble Tuning Fork \citep{hubble_no._1926}. Hubble arranged galaxies from `early' to `late' types with the implicit assumption that all galaxies evolved that way in time. We now know that this transformation from early to late type is impossible since there is no way for ellipticals to increase their negligible angular velocity to match that of fast rotating spirals \citep{carroll_introduction_2007}. 
 
 Spirals are sorted by the bulge size and tightness of their spiral arms and ellipticals by their ellipticity. On this continuous fork, an intermediate `lenticular' class is necessarily created. 
-\begin{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/Hubble_fork.jpg}
+	\caption{The Hubble Tuning Fork diagram. Early types are shown on the left with late types on the right \citep{hubble_no._1926}}
 	\label{hubble_fork}
 \end{figure}
 Lenticulars, or S0 galaxies, are observed to share the stellar content of ellipticals but the structure and kinematics of spirals. They are disk galaxies but have a smooth brightness profile free from spiral arms \citep{blanton_physical_2009}. S0s can be dusty and have few HII regions associated with young stars \citep{degraaff_galaxy_2007}. Together with a high metallicity, these properties give the galaxy a `red and dead' appearance with $0.7\lesssim B-V \lesssim 0.9$.
@@ -46,8 +54,8 @@ De Vaucouleurs was one of the first to propose his $R^{1/4}$ model for galaxy li
 where $I(R)$ is the intensity at radius $R$, $n$ is the Sersic index, $R_e$ is the effective radius which encloses half the total intensity, $I_e$ is the intensity at $R_e$ and $b_n$ is defined such that $\Gamma(2n) = 2\gamma(2n, b_n)$, where $\Gamma$ is the complete gamma function and $\gamma$ is the incomplete gamma function.
 \begin{figure}[!ht]
 		\centering
-		% \includegraphics[width=\linewidth]{sersic_mags}
-		\caption{Magnitude profiles of Sersic indices from 0.25 to 10}
+		\includegraphics[width=0.7\textwidth]{figs/sersic_mags.png}
+		\caption{Magnitude profiles of Sersic indices from 0.25 to 10 with an effective magnitude of 20 mags}
 		\label{fig:sersic_mags}
 	\end{figure}
 \ref{fig:sersic_mags} shows the effects of adjusting the \sersic index with respect to a constant effective surface brightness. As $n$ becomes smaller, the light becomes less centrally concentrated and lower in central intensity \citep{graham_concise_2005}. 
@@ -71,20 +79,16 @@ If the evolutionary mechanism is dependent on density, then there might be struc
 >>>see head for good description of fading process<<<
 
 \subsection{Truncation}
--infinite exp. doesn't describe completely, most disks
--three classes of truncation
--graphs of own truncated gals
--erwin
-
-
-
 One feature, suitably sensitive to external interactions, is the outer structure of the disk \citep{pohlen_stellar_2004}. The outermost radii should be vulnerable to the effects of galaxy-galaxy interactions, late-time accretion and gas stripping, hence retaining an imprint of formation process. 
 
 Disk galaxies have been known not to obey an infinitely extended exponential light distribution for 35 years \citep{van_der_kruit_optical_1979}. It has become apparent that most (79\% according to \citet{pohlen_cut-off_2001}) disk galaxies exhibit `truncations' or `breaks' in their otherwise smooth exponential profiles. 
 
 S0 galaxy truncations can fall into three broad truncation classes: Type-I: single-exponential, Type-II: classicly truncated \citep{freeman_disks_1970} or Type-III: anti-truncated \citep{erwin_antitruncation_2005}. 
-\begin{figure}
-	\label{own sample examples on truncated types}
+\begin{figure}[h]
+	\centering
+	\makebox[0.9\columnwidth]{\includegraphics[width=1.5\textwidth]{figs/trunc_type_examples.png}}
+	\caption{\footnotesize{The three basic types of truncation with the same bulge parameters. The break radius is indicated as a red box.}}
+	\label{trunc_types}
 \end{figure}
 
 Though early analysis indicated an even distribution of types in local S0s \citep{gutierrez_outer_2011}, when the cluster and field are analysed separately a distinct difference arises. While field S0s are divided roughly evenly between all three types, Virgo S0s appear to be completely devoid of type-IIs with $M_v < -17$ $f_{S0} = 0_{-0}^{+4}\%$ \citep{erwin_strong_2012}. Since type-IIIs are found to be equally common in both environments, the difference is made up of type-I profiles, making single-exponentials twice as common in the Virgo cluster than in the field. 
@@ -92,11 +96,6 @@ Though early analysis indicated an even distribution of types in local S0s \cite
 To account for such a drastic change in type population, either something in the (early) cluster transforms type-II into type-I or something prevents the opposite transition which is common in the field. Assuming cluster S0s originally had type-II truncated profiles, then a mechanism is required which erases said truncation. Harassment is a popular take ............
 
 \subsection{Aims of Project}
-- is it possible to find and classify truncations using a 1D profile method
--compare and contrast Virgo and Coma
--variation within the cluster
--search for a correlation between \sersic parameters and trunc. type
-
 In this project, we investigate the feasibility of detecting and classifying truncations in the coma cluster S0s using a simple 1D bulge-disc decomposition procedure. 
 
 \citet{erwin_strong_2012} used a sample of 24 S0s within the Virgo cluster. By studying Coma S0s we can select a larger number of S0s over a wide range of cluster-centric radii and hence compare and contrast the results with \citet{erwin_strong_2012}. 

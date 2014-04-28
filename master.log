@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.1)  27 APR 2014 11:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.1)  28 APR 2014 13:30
 entering extended mode
 **C:/Users/User/Documents/Project*work/Latex*Report/Main/master.tex
 ("C:/Users/User/Documents/Project work/Latex Report/Main/master.tex"
@@ -284,7 +284,7 @@ Package pdftex.def Info: figs/spiral_NGC5457_pinwheel.jpg used on input line 23
 _325-G004.jpg> <C:/Users/User/Documents/Project work/Latex Report/Main/figs/S0_
 NGC7049.jpg> <C:/Users/User/Documents/Project work/Latex Report/Main/figs/spira
 l_NGC5457_pinwheel.jpg>]
-<figs/Hubble_fork.jpg, id=26, 524.71031pt x 223.58531pt>
+<figs/Hubble_fork.jpg, id=27, 524.71031pt x 223.58531pt>
 File: figs/Hubble_fork.jpg Graphic file (type jpg)
 
 <use figs/Hubble_fork.jpg>
@@ -292,15 +292,15 @@ Package pdftex.def Info: figs/Hubble_fork.jpg used on input line 36.
 (pdftex.def)             Requested size: 328.82706pt x 140.12256pt.
  [4 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/Hubble_fork.jp
 g>]
-<figs/sersic_mags.png, id=32, 613.54219pt x 462.97969pt>
+<figs/sersic_mags.png, id=33, 613.54219pt x 462.97969pt>
 File: figs/sersic_mags.png Graphic file (type png)
 
 <use figs/sersic_mags.png>
-Package pdftex.def Info: figs/sersic_mags.png used on input line 57.
+Package pdftex.def Info: figs/sersic_mags.png used on input line 58.
 (pdftex.def)             Requested size: 328.82706pt x 248.13321pt.
  [5] [6 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sersic_mag
 s.png>]
-<figs/trunc_type_examples.png, id=43, 1233.6489pt x 607.068pt>
+<figs/trunc_type_examples.png, id=44, 1233.6489pt x 607.068pt>
 File: figs/trunc_type_examples.png Graphic file (type png)
 
 <use figs/trunc_type_examples.png>
@@ -318,26 +318,29 @@ examples.png>])
 File: figs/sky_examples.png Graphic file (type png)
 
 <use figs/sky_examples.png>
-Package pdftex.def Info: figs/sky_examples.png used on input line 10.
+Package pdftex.def Info: figs/sky_examples.png used on input line 11.
 (pdftex.def)             Requested size: 704.63248pt x 346.7456pt.
- [10 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_examples.
-png>]
-<figs/sky_finder.png, id=60, 674.2791pt x 533.3526pt>
-File: figs/sky_finder.png Graphic file (type png)
-
-<use figs/sky_finder.png>
-Package pdftex.def Info: figs/sky_finder.png used on input line 22.
-(pdftex.def)             Requested size: 469.75499pt x 371.5864pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] [12 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_finde
+[10] <figs/sky_finder.png, id=59, 674.2791pt x 533.3526pt>
+File: figs/sky_finder.png Graphic file (type png)
+
+<use figs/sky_finder.png>
+Package pdftex.def Info: figs/sky_finder.png used on input line 24.
+(pdftex.def)             Requested size: 281.85585pt x 222.94858pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_examples.p
+ng>] [12 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_finde
 r.png>] [13] <figs/trunc_finder.png, id=72, 672.8337pt x 513.117pt>
 File: figs/trunc_finder.png Graphic file (type png)
 
 <use figs/trunc_finder.png>
-Package pdftex.def Info: figs/trunc_finder.png used on input line 96.
+Package pdftex.def Info: figs/trunc_finder.png used on input line 88.
 (pdftex.def)             Requested size: 375.80542pt x 286.59976pt.
 
 
@@ -345,55 +348,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/trunc_fin
 der.png>]) ("C:\Users\User\Documents\Project work\Latex Report\Main\results.tex
-" <figs/sky_hist.png, id=80, 612.8496pt x 515.2851pt>
+" <figs/sky_hist.png, id=80, 715.473pt x 564.4287pt>
 File: figs/sky_hist.png Graphic file (type png)
  <use figs/sky_hist.png>
 Package pdftex.def Info: figs/sky_hist.png used on input line 12.
-(pdftex.def)             Requested size: 328.82706pt x 276.47285pt.
+(pdftex.def)             Requested size: 328.82706pt x 259.4078pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/example_decomp.png, id=81, 1233.6489pt x 607.068pt>
+[16] <figs/example_decomp.png, id=84, 1233.6489pt x 607.068pt>
 File: figs/example_decomp.png Graphic file (type png)
 
 <use figs/example_decomp.png>
-Package pdftex.def Info: figs/example_decomp.png used on input line 26.
+Package pdftex.def Info: figs/example_decomp.png used on input line 25.
 (pdftex.def)             Requested size: 910.60132pt x 448.10245pt.
- [16] [17 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_hist
-.png>] [18 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/example
-_decomp.png>]
+ [17 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/sky_hist.png>
+] [18 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/example_deco
+mp.png>]
 <figs/props_hist.png, id=94, 1233.6489pt x 607.068pt>
 File: figs/props_hist.png Graphic file (type png)
 
 <use figs/props_hist.png>
-Package pdftex.def Info: figs/props_hist.png used on input line 66.
+Package pdftex.def Info: figs/props_hist.png used on input line 59.
 (pdftex.def)             Requested size: 607.06755pt x 298.73497pt.
  [19] [20 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/props_hi
 st.png>]
-<figs/bulge_mag_vs_brk.png, id=102, 648.2619pt x 497.2176pt>
-File: figs/bulge_mag_vs_brk.png Graphic file (type png)
-
-<use figs/bulge_mag_vs_brk.png>
-Package pdftex.def Info: figs/bulge_mag_vs_brk.png used on input line 89.
-(pdftex.def)             Requested size: 375.80542pt x 288.24225pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/fraction_vs_cluster_radius.png, id=103, 589.0005pt x 444.4605pt>
+<figs/fraction_vs_cluster_radius.png, id=102, 589.0005pt x 444.4605pt>
 File: figs/fraction_vs_cluster_radius.png Graphic file (type png)
 
 <use figs/fraction_vs_cluster_radius.png>
 Package pdftex.def Info: figs/fraction_vs_cluster_radius.png used on input line
- 96.
+ 75.
 (pdftex.def)             Requested size: 294.49953pt x 222.2297pt.
+ [21 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/fraction_vs_c
+luster_radius.png>]
+<figs/bulge_mag_vs_brk.png, id=107, 648.2619pt x 497.2176pt>
+File: figs/bulge_mag_vs_brk.png Graphic file (type png)
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) ("C:\Users\User\Documents\Project work\Latex Report\Main\discussion.tex"
-<figs/total_bar_chart_truncs_incl_field.png, id=104, 589.0005pt x 444.4605pt>
+<use figs/bulge_mag_vs_brk.png>
+Package pdftex.def Info: figs/bulge_mag_vs_brk.png used on input line 94.
+(pdftex.def)             Requested size: 375.80542pt x 288.24225pt.
+) [22 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/bulge_mag_vs
+_brk.png>]
+("C:\Users\User\Documents\Project work\Latex Report\Main\discussion.tex"
+<figs/total_bar_chart_truncs_incl_field.png, id=114, 589.0005pt x 444.4605pt>
 File: figs/total_bar_chart_truncs_incl_field.png Graphic file (type png)
 
 <use figs/total_bar_chart_truncs_incl_field.png>
@@ -404,29 +403,28 @@ ut line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] [22 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/bulge_mag
-_vs_brk.png>]) [23 <C:/Users/User/Documents/Project work/Latex Report/Main/figs
-/fraction_vs_cluster_radius.png>]
+[23] [24 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/total_bar
+_chart_truncs_incl_field.png>])
 ("C:\Users\User\Documents\Project work\Latex Report\Main\conclusion.tex"
-[24 <C:/Users/User/Documents/Project work/Latex Report/Main/figs/total_bar_char
-t_truncs_incl_field.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-) ("C:\Users\User\Documents\Project work\Latex Report\Main\master.bbl"
-[25] [26] [27]) [28]
+ [25])
+("C:\Users\User\Documents\Project work\Latex Report\Main\master.bbl" [26]
+[27] [28]) [29]
 ("C:\Users\User\Documents\Project work\Latex Report\Main\master.aux") ) 
 Here is how much of TeX's memory you used:
- 3438 strings out of 493921
- 46967 string characters out of 3147286
- 99184 words of memory out of 3000000
- 6644 multiletter control sequences out of 15000+200000
+ 3442 strings out of 493921
+ 47078 string characters out of 3147286
+ 99226 words of memory out of 3000000
+ 6648 multiletter control sequences out of 15000+200000
  15010 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,9n,28p,1224b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,28p,1223b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTe
@@ -443,9 +441,9 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msam10.pfb>
-Output written on master.pdf (29 pages, 1016144 bytes).
+Output written on master.pdf (30 pages, 1016039 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,12 +19,11 @@ Bedregal A.~G.,  Arag{\'o}n-Salamanca A.,    Merrifield M.~R.,  2006, {MNRAS},
   373, 1125{\textendash}1140
 
 \bibitem[\protect\citeauthoryear{Bekki}{Bekki}{1998}]{bekki_unequal-mass_1998}
-Bekki K.,  1998, The Astrophysical Journal Letters, 502, L133
+Bekki K.,  1998, {ApJL}, 502, L133
 
 \bibitem[\protect\citeauthoryear{Berendzen, Hart \& Seeley}{Berendzen
   et~al.}{1976}]{berendzen_man_1976}
-Berendzen R.,  Hart R.,    Seeley D.,  1976, National Science Foundation New
-  York, Science History Publications, Inc., 1976. 237 p., -1
+Berendzen R.,  Hart R.,    Seeley D.,  1976, {NSF}, -1
 
 \bibitem[\protect\citeauthoryear{Bijaoui}{Bijaoui}{1980}]{bijaoui_sky_1980}
 Bijaoui A.,  1980, {A\&A}, 84, 81
@@ -40,9 +39,7 @@ Princeton University Press, Princeton, {NJ}
 
 \bibitem[\protect\citeauthoryear{Blanton \& Moustakas}{Blanton \&
   Moustakas}{2009}]{blanton_physical_2009}
-Blanton M.~R.,  Moustakas J.,  2009, {arXiv} e-print 0908.3017, Physical
-  properties and environments of nearby galaxies,
-  \verb+http://arxiv.org/abs/0908.3017+
+Blanton M.~R.,  Moustakas J.,  2009, {ARAA}
 
 \bibitem[\protect\citeauthoryear{Bower, Lucey \& Ellis}{Bower
   et~al.}{1992}]{bower_precision_1992}
@@ -68,7 +65,7 @@ John Wiley, Chichester, Eng
 Cortesi A.,  Merrifield M.~R.,  Coccato L.,  Arnaboldi M.,  Gerhard O.,
   Bamford S.,  Napolitano N.~R.,  Romanowsky A.~J.,  Douglas N.~G.,  Kuijken
   K.,  Capaccioli M.,  Freeman K.~C.,  Saha K.,    Chies-Santos A.~L.,  2013,
-  {arXiv:1304.1382} [astro-ph]
+  {MNRAS}
 
 \bibitem[\protect\citeauthoryear{Crocker, Bureau, Young \& Combes}{Crocker
   et~al.}{2011}]{crocker_molecular_2011}
@@ -77,7 +74,7 @@ Crocker A.~F.,  Bureau M.,  Young L.~M.,    Combes F.,  2011, {MNRAS}, 410,
 
 \bibitem[\protect\citeauthoryear{de
   Vaucouleurs}{de~Vaucouleurs}{1963}]{de_vaucouleurs_revised_1963}
-de Vaucouleurs G.,  1963, The Astrophysical Journal Supplement Series, 8, 31
+de Vaucouleurs G.,  1963, {ApJS}, 8, 31
 
 \bibitem[\protect\citeauthoryear{{DeGraaff}, Blakeslee, Meurer \&
   Putman}{{DeGraaff} et~al.}{2007}]{degraaff_galaxy_2007}
@@ -89,7 +86,7 @@ Dierckx P.,  1975, Curve and surface splitting with splines.
 Clarendon Press, Oxford; New York
 
 \bibitem[\protect\citeauthoryear{Dressler}{Dressler}{1980}]{dressler_galaxy_1980}
-Dressler A.,  1980, The Astrophysical Journal, 236, 351
+Dressler A.,  1980, {ApJ}, 236, 351
 
 \bibitem[\protect\citeauthoryear{Dressler, Augustus~Oemler, Couch, Smail,
   Ellis, Barger, Butcher, Poggianti \& Sharples}{Dressler
@@ -100,49 +97,42 @@ Dressler A.,  Augustus~Oemler J.,  Couch W.~J.,  Smail I.,  Ellis R.~S.,
 
 \bibitem[\protect\citeauthoryear{Dressler \& Sandage}{Dressler \&
   Sandage}{1983}]{dressler_rotational_1983}
-Dressler A.,  Sandage A.,  1983, The Astrophysical Journal, 265, 664
+Dressler A.,  Sandage A.,  1983, {ApJ}, 265, 664
 
 \bibitem[\protect\citeauthoryear{Erwin, Beckman \& Pohlen}{Erwin
   et~al.}{2005}]{erwin_antitruncation_2005}
-Erwin P.,  Beckman J.~E.,    Pohlen M.,  2005, {ApJ}, 626, L81
+Erwin P.,  Beckman J.~E.,    Pohlen M.,  2005, {ApJL}, 626, L81
 
 \bibitem[\protect\citeauthoryear{Erwin, Gutierrez \& Beckman}{Erwin
   et~al.}{2012}]{erwin_strong_2012}
-Erwin P.,  Gutierrez L.,    Beckman J.~E.,  2012, The Astrophysical Journal,
-  744, L11
+Erwin P.,  Gutierrez L.,    Beckman J.~E.,  2012, {ApJ}, 744, L11
 
 \bibitem[\protect\citeauthoryear{Erwin, Pohlen \& Beckman}{Erwin
   et~al.}{2008}]{erwin_outer_2008}
-Erwin P.,  Pohlen M.,    Beckman J.~E.,  2008, The Astronomical Journal, 135,
-  20
+Erwin P.,  Pohlen M.,    Beckman J.~E.,  2008, {AJ}, 135, 20
 
 \bibitem[\protect\citeauthoryear{Freeman}{Freeman}{1970}]{freeman_disks_1970}
-Freeman K.~C.,  1970, The Astrophysical Journal, 160, 811
+Freeman K.~C.,  1970, {ApJ}, 160, 811
 
 \bibitem[\protect\citeauthoryear{Graham \& Driver}{Graham \&
   Driver}{2005}]{graham_concise_2005}
-Graham A.~W.,  Driver S.~P.,  2005, {arXiv} e-print astro-ph/0503176, A concise
-  reference to (projected) Sersic R{\textasciicircum}\{1/n\} quantities,
-  including Concentration, Profile Slopes, Petrosian indices, and Kron
-  Magnitudes, \verb+http://arxiv.org/abs/astro-ph/0503176+
+Graham A.~W.,  Driver S.~P.,  2005, {PASA}
 
 \bibitem[\protect\citeauthoryear{Gunn \& Gott J.~Richard}{Gunn \&
   Gott}{1972}]{gunn_infall_1972}
-Gunn J.~E.,  Gott J.~Richard I.,  1972, The Astrophysical Journal, 176, 1
+Gunn J.~E.,  Gott J.~Richard I.,  1972, {ApJ}, 176, 1
 
 \bibitem[\protect\citeauthoryear{Guti{\'e}rrez, Erwin, Aladro \&
   Beckman}{Guti{\'e}rrez et~al.}{2011}]{gutierrez_outer_2011}
-Guti{\'e}rrez L.,  Erwin P.,  Aladro R.,    Beckman J.~E.,  2011, The
-  Astronomical Journal, 142, 145
+Guti{\'e}rrez L.,  Erwin P.,  Aladro R.,    Beckman J.~E.,  2011, {AJ}, 142,
+  145
 
 \bibitem[\protect\citeauthoryear{Head, Lucey, Hudson \& Smith}{Head
   et~al.}{2014}]{head_dissecting_2014}
-Head J. T. C.~G.,  Lucey J.~R.,  Hudson M.~J.,    Smith R.~J.,  2014,
-  {arXiv:1402.4135} [astro-ph]
+Head J. T. C.~G.,  Lucey J.~R.,  Hudson M.~J.,    Smith R.~J.,  2014, {MNRAS}
 
 \bibitem[\protect\citeauthoryear{Hubble}{Hubble}{1926}]{hubble_no._1926}
-Hubble E.,  1926, Contributions from the Mount Wilson Observatory / Carnegie
-  Institution of Washington, 324, 1
+Hubble E.,  1926, {ADS}, 324, 1
 
 \bibitem[\protect\citeauthoryear{Hughes}{Hughes}{2010}]{hughes_measurements_2010}
 Hughes I.,  2010, Measurements and their uncertainties: a practical guide to
@@ -154,8 +144,7 @@ Kennicutt J.,  1998, {ARAA}, 36, 189
 
 \bibitem[\protect\citeauthoryear{Kormendy, Drory, Bender \& Cornell}{Kormendy
   et~al.}{2010}]{kormendy_bulgeless_2010}
-Kormendy J.,  Drory N.,  Bender R.,    Cornell M.~E.,  2010, The Astrophysical
-  Journal, 723, 54
+Kormendy J.,  Drory N.,  Bender R.,    Cornell M.~E.,  2010, {ApJ}, 723, 54
 
 \bibitem[\protect\citeauthoryear{Laurikainen, Salo \& Buta}{Laurikainen
   et~al.}{2005}]{laurikainen_multicomponent_2005}
@@ -172,11 +161,10 @@ Wiley, Chichester ; Hoboken, {NJ}
 \bibitem[\protect\citeauthoryear{Maltby, Hoyos, Gray, Arag{\'o}n-Salamanca \&
   Wolf}{Maltby et~al.}{2011}]{maltby_anti-truncated_2011}
 Maltby D.~T.,  Hoyos C.,  Gray M.~E.,  Arag{\'o}n-Salamanca A.,    Wolf C.,
-  2011, {arXiv:1111.3801} [astro-ph]
+  2011, {MNRAS}
 
 \bibitem[\protect\citeauthoryear{Marquardt}{Marquardt}{1963}]{marquardt_algorithm_1963}
-Marquardt D.~W.,  1963, Journal of the Society for Industrial and Applied
-  Mathematics, 11, 431
+Marquardt D.~W.,  1963, {JSIAM}, 11, 431
 
 \bibitem[\protect\citeauthoryear{Moore, Katz, Lake, Dressler \& Oemler}{Moore
   et~al.}{1996}]{moore_galaxy_1996}
@@ -203,25 +191,23 @@ Olsen D.,  Dou C.,  Zhang X.,  Hu L.,  Kim H.,    Hildum E.,  2010, Remote
 
 \bibitem[\protect\citeauthoryear{Peng, Ho, Impey \& Rix}{Peng
   et~al.}{2002}]{peng_detailed_2002}
-Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,    Rix H.-W.,  2002, The Astronomical
-  Journal, 124, 266
+Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,    Rix H.-W.,  2002, {AJ}, 124, 266
 
 \bibitem[\protect\citeauthoryear{Peng, Ho, Impey \& Rix}{Peng
   et~al.}{2010}]{peng_detailed_2010}
-Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,    Rix H.-W.,  2010, The Astronomical
-  Journal, 139, 2097
+Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,    Rix H.-W.,  2010, {AJ}, 139, 2097
 
 \bibitem[\protect\citeauthoryear{Pizagno, Prada, Weinberg, Rix, Pogge, Grebel,
   Harbeck, Blanton, Brinkmann \& Gunn}{Pizagno
   et~al.}{2007}]{pizagno_tully-fisher_2007}
 Pizagno J.,  Prada F.,  Weinberg D.~H.,  Rix H.-W.,  Pogge R.~W.,  Grebel
-  E.~K.,  Harbeck D.,  Blanton M.,  Brinkmann J.,    Gunn J.~E.,  2007, The
-  Astronomical Journal, 134, 945
+  E.~K.,  Harbeck D.,  Blanton M.,  Brinkmann J.,    Gunn J.~E.,  2007, {AJ},
+  134, 945
 
 \bibitem[\protect\citeauthoryear{Pohlen, Beckman, Huettemeister, Knapen, Erwin
   \& Dettmar}{Pohlen et~al.}{2004}]{pohlen_stellar_2004}
 Pohlen M.,  Beckman J.~E.,  Huettemeister S.,  Knapen J.~H.,  Erwin P.,
-  Dettmar R.-J.,  2004, {arXiv:astro-ph/0405541}
+  Dettmar R.-J.,  2004, {ADS}
 
 \bibitem[\protect\citeauthoryear{Pohlen, L{\"u}tticke \& Dettmar}{Pohlen
   et~al.}{2001}]{pohlen_cut-off_2001}
@@ -235,22 +221,19 @@ Pohlen M.,  Trujillo I.,  2006, {A\&A}, 454, 759
 
 \bibitem[\protect\citeauthoryear{Rawle, Lucey, Smith \& Head}{Rawle
   et~al.}{2013}]{rawle_s0_2013}
-Rawle T.~D.,  Lucey J.~R.,  Smith R.~J.,    Head J. T. C.~G.,  2013, {arXiv}
-  e-print 1305.6929, S0 galaxies in the Coma cluster: Environmental dependence
-  of the S0 offset from the Tully-Fisher relation,
-  \verb+http://arxiv.org/abs/1305.6929+
+Rawle T.~D.,  Lucey J.~R.,  Smith R.~J.,    Head J. T. C.~G.,  2013, {MNRAS}
 
 \bibitem[\protect\citeauthoryear{Sersic}{Sersic}{1968}]{sersic_atlas_1968}
 Sersic J.~L.,  1968, Cordoba, Argentina: Observatorio Astronomico, 1968, -1
 
 \bibitem[\protect\citeauthoryear{Silk \& Nusser}{Silk \&
   Nusser}{2010}]{silk_massive-black-hole-velocity-dispersion_2010}
-Silk J.,  Nusser A.,  2010, The Astrophysical Journal, 725, 556
+Silk J.,  Nusser A.,  2010, {ApJ}, 725, 556
 
 \bibitem[\protect\citeauthoryear{Simard, Mendel, Patton, Ellison \&
   {McConnachie}}{Simard et~al.}{2011}]{simard_catalog_2011}
 Simard L.,  Mendel J.~T.,  Patton D.~R.,  Ellison S.~L.,    {McConnachie}
-  A.~W.,  2011, {arXiv:1107.1518} [astro-ph]
+  A.~W.,  2011, {A\&A}
 
 \bibitem[\protect\citeauthoryear{Sparke}{Sparke}{2000}]{sparke_galaxies_2000}
 Sparke L.~S.,  2000, Galaxies in the universe: an introduction.
@@ -270,6 +253,6 @@ Weinzirl T.,  Jogee S.,  Khochfar S.,  Burkert A.,    Kormendy J.,  2009,
   {ApJ}, 696, 411
 
 \bibitem[\protect\citeauthoryear{Wilson}{Wilson}{1927}]{wilson_probable_1927}
-Wilson E.~B.,  1927, Journal of the American Statistical Association, 22, 209
+Wilson E.~B.,  1927, {JASA}, 22, 209
 
 \end{thebibliography}
